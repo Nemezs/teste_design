@@ -1,6 +1,8 @@
+/*
 import 'package:untitled/DesignSystem/Components/BottomNavigationBar/botton_navigation_view_model.dart';
 import 'package:untitled/DesignSystem/Components/BottomNavigationBar/botton_navitation.dart';
 import 'package:flutter/material.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -29,7 +31,7 @@ class MyApp extends StatelessWidget{
     );
   }
 }
-
+*/
 /*
 import 'package:flutter/material.dart';
 import 'package:untitled/DesignSystem/Components/NavigationBar/my_home_page.dart';
@@ -48,8 +50,8 @@ class MyApp extends StatelessWidget {
       home: MyHomePage(),
     );
   }
-}*/
-
+}
+*/
 
 /*
 import 'package:untitled/DesignSystem/Components/Tab_bar/custom_tab_bar.dart';
@@ -85,7 +87,7 @@ class MyApp extends StatelessWidget {
 }
 */
 
-/* temporário: usar para testar o input_text'
+/*
 import 'package:flutter/material.dart';
 import 'package:untitled/DesignSystem/Components/Input_text/my_form.dart';
 import 'package:flutter/material.dart';
@@ -103,7 +105,27 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 */
 
+/*
+import 'package:flutter/material.dart';
+import 'package:untitled/DesignSystem/Samples/action_button_sample_screen.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Action Button Sample',
+      home: ActionButtonSampleScreen(), 
+    );
+  }
+}
+*/
 
